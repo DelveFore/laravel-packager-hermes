@@ -62,12 +62,12 @@ MIT. Please see the [license file](license.md) for more information.
 
 [ico-version]: https://img.shields.io/packagist/v/delvefore/laravel-packager-hermes.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/delvefore/laravel-packager-hermes.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/delvefore/laravel-packager-hermes/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/DelveFore/laravel-packager-hermes/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
 [link-packagist]: https://packagist.org/packages/delvefore/laravel-packager-hermes
 [link-downloads]: https://packagist.org/packages/delvefore/laravel-packager-hermes
-[link-travis]: https://travis-ci.org/delvefore/laravel-packager-hermes
+[link-travis]: https://travis-ci.org/DelveFore/laravel-packager-hermes
 [link-styleci]: https://styleci.io/repos/12345678
 [link-author]: https://github.com/delvefore
 [link-contributors]: ../../contributors]
