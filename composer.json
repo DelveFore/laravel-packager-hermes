@@ -1,6 +1,6 @@
 {
-    "name": "delvefore/packager-hermes",
-    "description": ":description",
+    "name": "delvefore/laravel-packager-hermes",
+    "description": "Artisan make Commands when using https://github.com/Jeroen-G/laravel-packager thereby accelerating your development of Laravel Packages. ",
     "license": "MIT",
     "authors": [
         {
