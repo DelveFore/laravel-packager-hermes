@@ -1,0 +1,43 @@
+{
+    "name": "delvefore/packagerhermes",
+    "description": ":description",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "johntimothybailey",
+            "email": "social@delvefore.com",
+            "homepage": "https://github.com/delvefore"
+        }
+    ],
+    "homepage": "https://github.com/delvefore/laravel-packager-hermes",
+    "keywords": ["Laravel", "PackagerHermes"],
+    "require": {
+        "illuminate/support": "~5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DelveFore\\PackagerHermes\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DelveFore\\PackagerHermes\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DelveFore\\PackagerHermes\\PackagerHermesServiceProvider"
+            ],
+            "aliases": {
+                "PackagerHermes": "DelveFore\\PackagerHermes\\Facades\\PackagerHermes"
+            }
+        }
+    }
+}
