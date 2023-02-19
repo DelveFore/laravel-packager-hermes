@@ -14,7 +14,7 @@ In other words, this is a wrapper around Laravel 5 Artisan commands that targets
 Via Composer
 
 ``` bash
-$ composer require delvefore/packager-hermes
+composer require delvefore/packager-hermes
 ```
 
 Please note that this is specifically designed to work with the latest version of Laravel 5.
@@ -29,7 +29,7 @@ JeroenG\Packager\PackagerServiceProvider::class,
 ### Make Controller
  
 ```bash
-$ php artisan make:packager:controller MyVendor/MyPackage MyController 
+php artisan make:packager:controller MyVendor/MyPackage MyController 
 ```
 All options are the same as with [Laravel's Artisan Make Controller](https://github.com/laravel/framework/blob/5.7/src/Illuminate/Routing/Console/ControllerMakeCommand.php#L176)
 
@@ -40,7 +40,7 @@ Please see the [changelog](changelog.md) for more information on what has change
 ## Testing
 
 ``` bash
-$ composer test
+composer test
 ```
 
 ## Contributing
